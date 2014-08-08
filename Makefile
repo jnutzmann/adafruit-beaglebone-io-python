@@ -13,7 +13,7 @@ tests:
 	py.test
 
 build:
-	python setup.py build --force
+	python3 setup.py build --force
 
 install: build
-	python setup.py install --force
+	python3 setup.py install --force
